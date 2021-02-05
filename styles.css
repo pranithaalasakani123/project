@@ -1,0 +1,190 @@
+.nav{
+  background-color:DimGrey;
+}
+.gaps{
+  padding-left:40px;
+}
+.gap{
+   width: 50%;
+}
+.moving{
+  padding-right: 150px;
+}
+.img-height{
+  height: 10%;
+  width: 10%;
+}
+.back1{
+  background-color:DarkGray ;
+  height: 600px;
+  text-align: center;
+}
+.back2{
+  padding-top: 40px;
+  background-color: DimGrey;
+  height: 600px;
+  text-align: center;
+}
+.back3{
+  background-color:DarkGray ;
+  height: 600px;
+  text-align: center;
+}
+.allign{
+  font-size: 5rem;
+  padding-top: 250px;
+  color: white;
+}
+.tagline{
+  height:70px;
+}
+.styles{
+  font-size: 3.5rem;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+#styles2{
+   padding-top: 10px;
+   padding-left: 50px;
+   padding-bottom: 40px;
+}
+.allign1{
+  color: white;
+}
+.casuels{
+  width: 350px;
+  height: 450px;
+  background-color:DarkGray;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+#casuel-allign{
+  text-align: left;
+  color: black;
+}
+.sports{
+  width: 450px;
+  height: 250px;
+  background-color: DarkGray;
+  position: relative;
+  left: 700px;
+  bottom: 480px;
+}
+.street{
+  width: 450px;
+  height: 250px;
+  background-color: DarkGray;
+  position: relative;
+  left: 830px;
+  bottom:420px;
+}
+.position{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.men{
+  position: relative;
+  top: 250px;
+  left: 30px;
+}
+.safe-info{
+  background-color: DarkGray;
+  height: 200px;
+  text-align: center;
+  padding-top: 90px;
+}
+.height{
+  height: 400px;
+
+}
+.street1{
+  width: 450px;
+  height: 250px;
+  background-color:DimGrey;
+  position: relative;
+  left: 830px;
+  bottom:460px;
+}
+.casuels1{
+
+  width: 350px;
+  height: 450px;
+  background-color:DimGrey;
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
+.back4{
+  background-color: AliceBlue;
+}
+.shop-by-style{
+  background-color:Azure;
+  height: 200px;
+  text-align: center;
+  padding-top: 90px;
+}
+.backgropundcolor1{
+      background-color: AntiqueWhite;
+}
+.backgropundcolor2{
+       background-color: Beige;
+}
+.backgropundcolor3{
+       background-color: Bisque;
+}
+#color{
+  color: black;
+  height: 400px;
+  text-align: center;
+  padding-top: 180px;
+}
+.our-story{
+  height: 500px;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.final-one{
+  background-color: MintCream;
+  width: 300px;
+  height: 350px;
+}
+.final-second{
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left:500px;
+  bottom:350px;
+}
+.second-second{
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 30px;
+  font-size: 1rem;
+}
+.first{
+  height: 300px;
+  width: 40%;
+  background-color: AntiqueWhit;
+}
+.second{
+  height: 300px;
+  width: 60%;
+  background-color:  AliceBlue ;
+  position: relative;
+  left: 40%;
+  bottom: 300px;
+}
+.third{
+  height: 300px;
+  width:100%;
+  background-color:Bisque;
+  position: relative;
+  bottom: 300px;
+}
+.contact{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
