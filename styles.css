@@ -57,7 +57,7 @@
   background-color:DarkGray;
   position: relative;
   left: 250px;
-  top: 50px;
+  top: 20px;
 }
 #casuel-allign{
   text-align: left;
@@ -68,7 +68,7 @@
   height: 250px;
   background-color: DarkGray;
   position: relative;
-  left: 700px;
+  left: 800px;
   bottom: 480px;
 }
 .street{
@@ -76,8 +76,8 @@
   height: 250px;
   background-color: DarkGray;
   position: relative;
-  left: 830px;
-  bottom:420px;
+  left: 800px;
+  bottom:430px;
 }
 .position{
   text-align: center;
@@ -97,24 +97,44 @@
 }
 .height{
   height: 400px;
-
+}
+.div{
+  width: 10%;
+  height:10%;
+  text-align: center;
+}
+.div1{
+  width: 15%;
+  height:10%;
+  text-align: center;
+}
+.rotated {
+  transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+  background-color: grey;
 }
 .street1{
   width: 450px;
   height: 250px;
-  background-color:DimGrey;
+  background-color:Darkgray;
   position: relative;
-  left: 830px;
-  bottom:460px;
+  left: 800px;
+  bottom:470px;
+}
+.sports1{
+  width: 450px;
+  height: 250px;
+  background-color: DarkGray;
+  position: relative;
+  left: 800px;
+  bottom: 530px;
 }
 .casuels1{
-
   width: 350px;
   height: 450px;
-  background-color:DimGrey;
+  background-color:Darkgray;
   position: relative;
   left: 250px;
-  top: 10px;
+  top: -20px;
 }
 .back4{
   background-color: AliceBlue;
@@ -126,7 +146,7 @@
   padding-top: 90px;
 }
 .backgropundcolor1{
-      background-color: AntiqueWhite;
+      background-color: pink;
 }
 .backgropundcolor2{
        background-color: Beige;
@@ -187,4 +207,184 @@
   text-align: center;
   position: relative;
   top: 100px;
+}
+.first-div{
+  height: 300px;
+  width: 300px;
+  background-color:pink;
+}
+.second-div{
+  height: 300px;
+  width: 300px;
+  background-color: mintcream;
+}
+.third-div{
+  height: 300px;
+  width: 300px;
+  background-color:  pink;
+}
+/*----------------------------------------styles-------------------------*/
+body{
+  background-color: black;
+  background-size:cover;
+}
+.hi-slide{
+  position: relative;
+  width: 754px;
+  height: 294px;
+  border-radius:50px;
+  margin:115px auto 0;
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: white;
+}
+.hi-slide .hi-prev{
+  left:-60px;
+}
+.hi-slide .hi-prev::before{
+  content:'<';
+}
+.hi-slide .hi-next{
+  right: -60px;
+}
+
+.hi-slide .hi-next::before{
+  content:'>';
+}
+.hi-slide > ul{
+  list-style:none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin:0;
+  padding:0;
+}
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left:377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  background-color: #333;
+}
+.hi-slide > ul > li > div{
+  width: 100%;
+  height:100%;
+  background-position: center;
+
+}
+.first-div{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+.second-div{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+.third-div{
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+/*----------------------------------------styles-------------------------*/
+body{
+  background-color: black;
+  background-size:cover;
+}
+.hi-slide{
+  position: relative;
+  width: 754px;
+  height: 294px;
+  border-radius:50px;
+  margin:115px auto 0;
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: white;
+}
+.hi-slide .hi-prev{
+  left:-60px;
+}
+.hi-slide .hi-prev::before{
+  content:'<';
+}
+.hi-slide .hi-next{
+  right: -60px;
+}
+
+.hi-slide .hi-next::before{
+  content:'>';
+}
+.hi-slide > ul{
+  list-style:none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin:0;
+  padding:0;
+}
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left:377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  background-color: #333;
+}
+.hi-slide > ul > li > div{
+  width: 100%;
+  height:100%;
+  background-position: center;
+
 }

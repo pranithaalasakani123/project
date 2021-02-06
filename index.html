@@ -6,10 +6,8 @@
   <title>website</title>
   <link rel="stylesheet" href="styles.css">
   <!-------------css bootstrap------->
+  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!-------------java script------->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -34,7 +32,6 @@
           <li class="nav-item gaps">
             <a class="nav-link" href="#">About Us</a>
           </li>
-
         </ul>
         <form class="navbar-form navbar-left moving" role="search">
           <div class="form-group">
@@ -68,15 +65,16 @@
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only"></span>
+      <span class="visually-hidden">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only"></span>
+      <span class="visually-hidden">Next</span>
     </a>
   </div>
 
   <!------------------------------------tag line part---------------------------------->
+
   <div section="tagline">
     <h1 class="styles">Tagline for category</h1>
     <h3 id="styles2">(offer/popular)</h3>
@@ -84,10 +82,10 @@
   </div>
   <!------------------------second part------------------------>
 
-  <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" data-intrevel:"1000">
     <div class="carousel-inner">
       <div class="carousel-item active back1  back4" id="casuel-allign">
-        <h1 class="men">MEN</h1>
+            <h1 class="men div rotated">MEN</h1>
         <div class="casuels">
           <h1 class="position">casuels</h1>
         </div>
@@ -99,11 +97,11 @@
         </div>
       </div>
       <div class="carousel-item back2 back4" id="casuel-allign">
-        <h1 class="men">WOMEN</h1>
+        <h1 class="men div1 rotated">WOMEN</h1>
         <div class="casuels1">
           <h1 class="position">casuels</h1>
         </div>
-        <div class="sports">
+        <div class="sports1">
           <h1 class="position">sports</h1>
         </div>
         <div class="street1">
@@ -111,7 +109,7 @@
         </div>
       </div>
       <div class="carousel-item back3 back4" id="casuel-allign">
-        <h1 class="men">KIDS</h1>
+        <h1 class="men div rotated">KIDS</h1>
         <div class="casuels">
           <h1 class="position">casuels</h1>
         </div>
@@ -128,31 +126,25 @@
     <h1 class="info">safe info banner</h1>
   </div>
   <!---------------------------------third part-------------------------->
-  <div section="shop-by-style">
-    <h1 class="shop-by-style">shop by style</h1>
-  </div>
+       <div class="slide hi-slide">
+         <div class="hi-prev"></div>
+         <div class="hi-next"></div>
+         <ul>
+           <li><div class="first-div"></div></li>
+           <li><div class="second-div"></div></li>
+           <li><div class="third-div"></div></li>
+           <li><div class="first-div"></div></li>
+           <li><div class="second-div"></div></li>
+           <li><div class="third-div"></div></li>
+         </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="hislide/jquery.hislide.js">
+        </script>
+        <script>
+          $('.slide').hiSlide();
+        </script>
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active height backgropundcolor1">
-           <h1 id="color">SHOP BY STYLE</h1>
-      </div>
-      <div class="carousel-item height backgropundcolor2">
-          <h1  id="color">SHOP BY STYLE</h1>
-      </div>
-      <div class="carousel-item height backgropundcolor3">
-          <h1 id="color">SHOP BY STYLE</h1>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
   <div class="our-story">
     <h1>our story</h1>
     <div class="final-one">
@@ -177,8 +169,9 @@
     </div>
 
   </div>
-
-
+---------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 
 </html>
